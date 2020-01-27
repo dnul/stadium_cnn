@@ -1,1 +1,0 @@
-As a study project following the read of deep learning with keras book by f.chollet, I've come up with the idea of using transfer learning with semi-automatic annotated datasets. In particular, gathering positions of landmarks within a city which their position is already known and annotated and then extracting their image representation.
