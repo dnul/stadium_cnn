@@ -3,7 +3,7 @@ A sample project working with keras to analyze satellite imagery.
 
 # Introduction
 
-As a study project following the read of *deep learning with keras* book by f.chollet, I've come up with the idea of using transfer learning with semi-automatic annotated datasets. In particular, gathering positions of landmarks within a city which their position is already known and annotated and then extracting their image representation. 
+As a study project following the read of *deep learning with keras* book by f.chollet, I've come up with the idea of using transfer learning with semi-automatic annotated datasets. In particular, gathering lat,lng coordinates of landmarks within a city which their position is already known and annotated and then extracting their satellite image representation. 
 
 I've think that  *soccer stadiums* could be a good fit for this idea because stadiums possibly stand-out from the city-scape in terms of size, color and shape. 
 
