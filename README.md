@@ -12,12 +12,13 @@ to gain insights and xp on extracting value from satellite images and leveraging
 
 # Project
 
+Built using a conda env + keras packages. 
 The project is divided into 3 notebooks:
 
 
-- extract_stadiums.ipynb ( Feature Extraction ) We take satellite images and generate a dataset for training.
-- training_explained.ipynb ( Training ) We use the dataset to train a RNN capable of classifying satellite images.
-- discover_explained.ipynb ( Discover ) We use the trained RNN to automatically find new samples in unseen data.
+- *extract_stadiums.ipynb* ( Feature Extraction ) We take satellite images and generate a dataset for training.
+- *training_explained.ipynb* ( Training ) We use the dataset to train a RNN capable of classifying satellite images.
+- *discover_explained.ipynb* ( Discover ) We use the trained RNN to automatically find new samples in unseen data.
 
 
 # Results
@@ -28,9 +29,13 @@ The project is divided into 3 notebooks:
 # Next steps
 
 - Augment dataset( very few positive samples)
-    - Create images with partial sections of stadiums instead of full centered image
+    - Extract more stadium images from other cities.
+    - Create images with partial sections of stadiums instead of a full centered image.
     - scale, rotate, warp positive samples. 
 - Reduce noise in training set:
-    - Positive samples contain images of both  the stadium and its surroundings (e.g assuming the parking outside the stadium its a stadium itself). Explore the idea of leaving only the stadium section in the training data and assess effects. Can we train on partial images and then evaluate on mixed images? 
+    - Positive samples contain images of both  the stadium and its surroundings (e.g assuming the parking outside the stadium its a stadium itself). Explore the idea of leaving only the stadium section in the training data and assess effects. (Can we train on partial images and then evaluate on mixed images? how would this affect the performance?) 
 - Better model diagnostics
-    - See data points where model makes mistakes
+    - See data points where model makes mistakes. 
+- RNN architecture:
+    - Incude resnet50 as part of the model architecture and look into training a few top layers ( would require moving into google colab)
+
