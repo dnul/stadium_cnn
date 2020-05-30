@@ -16,9 +16,9 @@ Built using a conda env + keras packages.
 The project is divided into 3 notebooks:
 
 
-- *extract_stadiums.ipynb* ( Feature Extraction ) We take satellite images and generate a dataset for training.
-- *training_explained.ipynb* ( Training ) We use the dataset to train a RNN capable of classifying satellite images.
-- *discover_explained.ipynb* ( Discover ) We use the trained RNN to automatically find new samples in unseen data.
+- [extract_stadiums.ipynb](extract_stadiums.ipynb) ( Feature Extraction ) We take satellite images and generate a dataset for training.
+- [train_explained.ipynb](train-explained.ipynb) ( Training ) We use the dataset to train a RNN capable of classifying satellite images.
+- [discover_explained.ipynb](discover_explained.ipynb) ( Discover ) We use the trained RNN to automatically find new samples in unseen data.
 
 
 # Results
