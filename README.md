@@ -23,7 +23,8 @@ The project is divided into 3 notebooks:
 - [discover_explained.ipynb](discover_explained.ipynb) ( Discover ) We use the trained RNN to automatically find new samples in unseen data.
 
 
-sample extracted stadium image:
+### sample extracted stadium image:
+
 ![](sample_results/river.png)
 
 # Results
